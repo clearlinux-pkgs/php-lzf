@@ -4,7 +4,7 @@
 #
 Name     : php-lzf
 Version  : 1.6.7
-Release  : 2
+Release  : 3
 URL      : https://pecl.php.net//get/LZF-1.6.7.tgz
 Source0  : https://pecl.php.net//get/LZF-1.6.7.tgz
 Summary  : No detailed summary available
@@ -30,6 +30,7 @@ lib components for the php-lzf package.
 
 %prep
 %setup -q -n LZF-1.6.7
+cd %{_builddir}/LZF-1.6.7
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -48,4 +49,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/lzf.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/lzf.so
