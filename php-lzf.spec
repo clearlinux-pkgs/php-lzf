@@ -4,7 +4,7 @@
 #
 Name     : php-lzf
 Version  : 1.6.8
-Release  : 9
+Release  : 10
 URL      : https://pecl.php.net/get/LZF-1.6.8.tgz
 Source0  : https://pecl.php.net/get/LZF-1.6.8.tgz
 Summary  : No detailed summary available
