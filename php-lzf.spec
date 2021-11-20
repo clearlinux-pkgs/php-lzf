@@ -4,7 +4,7 @@
 #
 Name     : php-lzf
 Version  : 1.6.8
-Release  : 11
+Release  : 12
 URL      : https://pecl.php.net/get/LZF-1.6.8.tgz
 Source0  : https://pecl.php.net/get/LZF-1.6.8.tgz
 Summary  : No detailed summary available
@@ -37,8 +37,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 phpize
-autoupdate
-%configure
+%configure --disable-static
 make  %{?_smp_mflags}
 
 %install
