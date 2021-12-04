@@ -4,7 +4,7 @@
 #
 Name     : php-lzf
 Version  : 1.6.8
-Release  : 12
+Release  : 13
 URL      : https://pecl.php.net/get/LZF-1.6.8.tgz
 Source0  : https://pecl.php.net/get/LZF-1.6.8.tgz
 Summary  : No detailed summary available
@@ -49,4 +49,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/lzf.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/lzf.so
