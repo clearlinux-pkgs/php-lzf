@@ -4,7 +4,7 @@
 #
 Name     : php-lzf
 Version  : 1.7.0
-Release  : 20
+Release  : 21
 URL      : https://pecl.php.net/get/LZF-1.7.0.tgz
 Source0  : https://pecl.php.net/get/LZF-1.7.0.tgz
 Summary  : No detailed summary available
